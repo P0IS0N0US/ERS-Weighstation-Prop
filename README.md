@@ -9,7 +9,7 @@ Adds a prop with a working display to the ERS weighstation addon.
 
 1.  Upload the `stream` folder to the `night_ers_weighstation` folder.
     
-2.  Add the following lines to `fxmanifest.lua`, or use the one provided in the GitHub repo:
+2.  Add the following lines to `fxmanifest.lua`
     
     ```
     files {'stream/addon_prop_truck_scale.ytyp'}
