@@ -11,7 +11,7 @@ local textureDict = 'addon_prop_truck_scales'
 local modelHash = `addon_prop_truck_scales`
 
 local callThreshhold = 5000
-local lastCallTime = 60000
+local lastCallTime = 0
 
 local adjust = 0.006  -- Make each segment slightly smaller
 
