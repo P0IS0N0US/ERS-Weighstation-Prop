@@ -7,16 +7,16 @@ Adds a prop with a working display to the ERS weighstation addon.
 
 ### Prop Installation
 
-1.  Upload the `stream` folder to the `night_ers_weighstation` folder.
+1.  Upload the `stream` folder to your `night_ers_weighstation` folder.
     
-2.  Add the following lines to `fxmanifest.lua`
+2.  Add the following lines to your `fxmanifest.lua`
     
     ```
     files {'stream/addon_prop_truck_scale.ytyp'}
     data_file 'DLC_ITYP_REQUEST' 'stream/addon_prop_truck_scale.ytyp'
     ```
     
-3.  In `config.lua`, change the value of `ObjectModel` to:
+3.  In your `config.lua`, change the value of `ObjectModel` to:
     
     ```
     ObjectModel = "addon_prop_truck_scales"
@@ -30,7 +30,7 @@ Adds a prop with a working display to the ERS weighstation addon.
 
 ### Display Installation
 
-1.  Replace `c_function.lua` with the modified version provided in the repository.
+1.  Replace your `c_function.lua` with the modified version provided in the repository.
 > [!WARNING]
 > This removes the text that hovers above the weighstation by default.<br>
 > To keep this feature, add the unmodified Draw3DText code below the code of the modified function. (I haven't tested this!)
