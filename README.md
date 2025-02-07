@@ -22,9 +22,10 @@ Adds a prop with a working display to the ERS weighstation addon.
     ObjectModel = "addon_prop_truck_scales"
     ```
     
-    Adjust the `z` offset in `ObjectOffset` to around `0.0`. At `0.0`, the prop might hover slightly, so you may need to apply a small downward offset.
-    
-4.  If you intend to use only the prop and keep everything else unchanged, replace the display image in the `addon_prop_truck_scales.ytd` file with `display.jpg` from the repository.
+    Adjust the Z offset in `ObjectOffset` to around `0.0`. At `0.0`, the prop hovers slightly, so you may need to apply a small downward offset.
+
+> [!NOTE]
+> If you intend to use only the prop and keep everything else unchanged, replace the display image in the `addon_prop_truck_scales.ytd` file with `display.jpg` from the repository.<br> This replaces the Black Screen that's usually present with a version that has a static turned off 7 segment Display.
     
 
 ### Display Installation
